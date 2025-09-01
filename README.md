@@ -1,6 +1,6 @@
 # Projeto-Estrutura-de-Dados
 
-# Conversão e Manipulação de Arquivos Binários
+## Conversão e Manipulação de Arquivos Binários
 
 Este projeto implementa um sistema em C++ capaz de converter arquivos CSV para binários e realizar diversas operações sobre os dados convertidos, incluindo ordenação externa, visualização e manipulação de registros. 
 
@@ -11,9 +11,7 @@ A finalidade deste trabalho é criar um sistema que:
 - Realize ordenação externa usando partições;
 - Permita ao usuário realizar operações como inserção, alteração, troca e visualização de registros diretamente sobre o arquivo binário.
 
-## Estrutura do Projeto
-
-# Estrutura `Info`
+## Estrutura `Info`
 A base do projeto é a estrutura `Info`, que representa cada registro e contém os seguintes campos:
 - `id` (int)
 - `nome` (char[100])
