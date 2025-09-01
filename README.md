@@ -13,7 +13,7 @@ A finalidade deste trabalho é criar um sistema que:
 
 ## Estrutura do Projeto
 
-## Estrutura `Info`
+# Estrutura `Info`
 A base do projeto é a estrutura `Info`, que representa cada registro e contém os seguintes campos:
 - `id` (int)
 - `nome` (char[100])
@@ -42,7 +42,7 @@ Etapas do Sistema
      - Trocar registros de posição
      - Inserir novo registro em posição escolhida
 
-Como Compilar e Executar
+## Como Compilar e Executar
 
 1. Compile os arquivos com um compilador C++:
    
@@ -54,6 +54,6 @@ Como Compilar e Executar
 Certifique-se de que o arquivo `data_athlete_game.csv` está na mesma pasta dos executáveis.
 
 
-Conclusão
+## Conclusão
 
 Este projeto demonstrou como é possível aplicar técnicas de ordenação externa, manipulação de arquivos binários e estruturas de dados em C++ para construir um sistema eficiente, capaz de lidar com grandes volumes de dados.O uso de merge com heap foram pontos chave para alcançar esse objetivo. O sistema é modular, interativo e adaptável a diferentes conjuntos de dados.
